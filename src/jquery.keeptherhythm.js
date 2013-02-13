@@ -26,9 +26,17 @@
     Plugin.prototype = {
 
         init: function() {
-            var obj = this.element;
+            var obj = $(this.element);
+            var rhythmPlugin = this;
+
+            $(window).resize(function () {
+                rhythmPlugin.fixRhythm(obj);
+            }).trigger("resize");
+        },
+
+        fixRhythm: function (obj) {
             var h = obj.height();
-            var r = global.lineHeight - (h % this.options.baseLine);
+            var r = this.options.baseLine - (h % this.options.baseLine);
 
             //if the element is in rhythm: do nothing.
             if (r == this.options.baseLine) {

@@ -3,19 +3,83 @@
 <head>
     <title>jQuery: Keep the Rhythm Sample - by Gaya Design</title>
 
-
+    <link rel="stylesheet" href="style.css" />
 
     <script type="text/javascript" src="../src/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../src/jquery.keeptherhythm.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            $("iframe").keepTheRhythm({
+                verticalAlignment: "top"
+            });
+        });
 
+        $(window).load(function () {
+            $("img.rhythmic").keepTheRhythm();
         });
     </script>
 </head>
 <body>
     <div class="wrapper">
+        <h1>Vertical rhythm example, using Keep the Rhythm plugin.</h1>
 
+        <p>
+            Resize the window to see how the vertical rhythm is maintained. It also works on objects other than images.
+        </p>
+        
+        <p>
+            <a href="https://github.com/Gaya/jQuery--Keep-the-Rhythm">Download from Github</a>, or read
+            <a href="http://www.gayadesign.com">my blogpost about keeping the rhythm</a> on Gaya Design.
+        </p>
+
+        <p>
+            Nam consequat mi id tortor varius tincidunt. Suspendisse tempus feugiat felis, nec bibendum neque molestie
+            ut. Nullam eu consectetur ante. Nam fermentum lobortis sem, id volutpat ligula sollicitudin et. Nulla a mi
+            non quam pharetra sodales id ac urna. Nullam rutrum massa volutpat tellus lobortis porta. Aenean aliquam
+            consequat sem, ut pellentesque metus aliquet eget. Duis quis lorem est, et tincidunt lectus. Sed sit amet
+            placerat eros. Aenean sed tempor est.
+        </p>
+
+        <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In mauris nulla,
+            cursus rhoncus pharetra sed, dictum eu justo. Donec fringilla ante sit amet nulla bibendum fermentum.
+            Pellentesque in felis dapibus augue mollis placerat et ut sapien. Quisque tincidunt augue ac arcu
+            ullamcorper sit amet facilisis enim lobortis. Nullam vitae risus vitae augue auctor feugiat ac a lectus.
+            Sed a laoreet enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque semper
+            vulputate.
+        </p>
+
+        <p>
+            <img src="mountains.jpg" width="500" height="293" class="rhythmic" alt="">
+        </p>
+
+        <p>
+            Donec tincidunt mi eget tortor interdum bibendum. Vestibulum vehicula ante eu ante auctor porttitor. Nullam
+            et dictum velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas. Pellentesque eu nibh eros, eget adipiscing risus. Morbi mollis, erat eget euismod gravida, ipsum
+            tellus congue lectus, vehicula vestibulum mi neque et magna. Nulla nec facilisis velit. Integer quis lacus
+            sed augue gravida imperdiet eu non lectus. Nullam tristique tellus ut libero tristique eget porta metus
+            varius. Fusce sed magna vel turpis facilisis rutrum at non odio. Donec auctor, nisi iaculis scelerisque
+            pellentesque, sem sem vulputate neque, at cursus ipsum purus vitae nulla. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Fusce ut justo vel justo porta consequat eget at
+            nibh.
+        </p>
+
+        <p>
+            <span class="youtube">
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/Rk6_hdRtJOE" frameborder="0" allowfullscreen></iframe>
+            </span>
+        </p>
+
+        <p>
+            Vestibulum dignissim diam et tellus ultricies cursus. Ut sit amet dui nisi, vitae malesuada neque. Duis quis
+            odio quis lacus ultricies varius. Curabitur consectetur mauris vitae sem mattis id malesuada enim auctor.
+            Nam auctor feugiat lectus, et venenatis tellus suscipit quis. Quisque facilisis justo ac sapien suscipit ut
+            consequat sapien euismod. Sed malesuada dignissim purus, sit amet iaculis leo ultrices sed. Nunc sed dolor
+            elit, rhoncus ornare sem. Mauris eu lacinia orci. Vestibulum mi enim, ultrices a auctor quis, eleifend ut
+            augue. Maecenas tortor enim, tincidunt bibendum porta sit amet, molestie nec mi. Quisque nisi dolor,
+            tristique id blandit sit amet, pellentesque in neque. Aliquam venenatis consequat cursus.
+        </p>
     </div>
 </body>
 </html>

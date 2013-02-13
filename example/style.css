@@ -1,0 +1,31 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+* html { font-size: 100%; }
+
+html { font-size: 16px; line-height: 1.5em; }
+
+body { font-family: sans-serif; background: url("rhythm.png") top left; }
+
+.wrapper { width: 100%; max-width: 700px; margin: 0px auto; }
+.wrapper h1 { font-size: 2em; line-height: 1.5em; margin-top: 1.5em; padding: 0px 20px; }
+.wrapper p { margin-top: 1.5em; margin-bottom: 1.5em; padding: 0px 20px; }
+.wrapper p img.rhythmic { display: block; margin: 0px auto; max-width: 100%; height: auto; }
+.wrapper p iframe { display: block; max-width: 100%; }
+.wrapper p span.youtube { display: block; }
+.wrapper p a { color: #ff0000; }
+.wrapper p a:hover { color: #000; }
